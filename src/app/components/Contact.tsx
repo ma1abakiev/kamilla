@@ -1,4 +1,4 @@
-import { Instagram, MessageCircle, Send } from "lucide-react"
+import { Instagram, MessageCircle } from "lucide-react"
 import { motion, useInView } from "motion/react"
 import { useRef, useState } from "react"
 
@@ -19,13 +19,13 @@ export function Contact() {
 	const socialLinks = [
 		{
 			icon: Instagram,
-			label: "@kamilla_smm",
-			href: "https://instagram.com/kamilla_smm",
+			label: "@kamillla.1",
+			href: "https://instagram.com/kamillla.1",
 		},
 		{
 			icon: MessageCircle,
 			label: "WhatsApp",
-			href: "https://wa.me/996700000000", // ← замени номер
+			href: "https://wa.me/996504205195", // ← замени номер
 		},
 	]
 
@@ -109,8 +109,6 @@ export function Contact() {
 							</p>
 						</motion.div>
 					</motion.div>
-
-					
 				</div>
 			</div>
 		</section>

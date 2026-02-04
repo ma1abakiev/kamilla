@@ -38,21 +38,25 @@ export const Header = () => {
 						)}
 
 						{/* CTA */}
-						<motion.button
+						<motion.a
+							href="https://wa.me/996504205195"
+							target="_blank"
+							rel="noopener noreferrer"
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.95 }}
 							className="
-                ml-4
-                rounded-full
-                border border-white/30
-                px-5 py-2
-                text-sm font-medium text-white
-                hover:bg-white hover:text-black
-                transition
-              "
+    ml-4
+    rounded-full
+    border border-white/30
+    px-5 py-2
+    text-sm font-medium text-white
+    hover:bg-white hover:text-black
+    transition
+    inline-block
+  "
 						>
 							Связаться
-						</motion.button>
+						</motion.a>
 					</nav>
 				</div>
 			</div>

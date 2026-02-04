@@ -52,7 +52,7 @@ export function Footer() {
             КАМИЛЛА
           </motion.div>
 
-          <div className="text-sm opacity-70">
+          <div className="text-sm opacity-70 text-center">
             © {currentYear} SMM-специалист Камилла. Все права защищены.
           </div>
         </motion.div>
