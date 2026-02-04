@@ -109,7 +109,7 @@ const MarqueeRow = ({
               w-full h-full
               transition-transform duration-500
               group-hover:scale-110
-              object-${size}
+              ${size === "cover" ? "object-cover" : "object-contain"}
             `}
 					/>
 				</div>

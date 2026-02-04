@@ -1,6 +1,6 @@
-import { Heart, Sparkles, TrendingUp } from "lucide-react"
 import { motion, useInView } from "motion/react"
 import { useRef } from "react"
+import aboutImage from "../../assets/about.jpg"
 
 export function About() {
 	const ref = useRef(null)
@@ -39,7 +39,8 @@ export function About() {
 							transition={{ duration: 0.3 }}
 						>
 							<motion.div
-								className="w-full h-full flex items-center justify-center text-white text-6xl font-bold bg-[url(src/assets/about.jpg)] bg-cover  bg-center bg-no-repeat"
+								className="w-full h-full flex items-center justify-center text-white text-6xl font-bold bg-cover  bg-center bg-no-repeat"
+								style={{ backgroundImage: `url(${aboutImage})` }}
 								// animate={{
 								//   background: [
 								//     'linear-gradient(45deg, #000 0%, #333 100%)',
@@ -52,9 +53,7 @@ export function About() {
 									repeat: Infinity,
 									ease: "linear",
 								}}
-							>
-								
-							</motion.div>
+							></motion.div>
 						</motion.div>
 					</motion.div>
 
@@ -91,7 +90,7 @@ export function About() {
 										color: "#fff",
 									}}
 								>
-                  <h3 className="text-center text-[50px]">{feature.title}</h3>
+									<h3 className="text-center text-[50px]">{feature.title}</h3>
 									{/* <feature.icon className="w-8 h-8" /> */}
 									<span className="text-lg text-center">{feature.text}</span>
 								</motion.div>
