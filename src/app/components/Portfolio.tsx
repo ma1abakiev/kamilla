@@ -130,18 +130,18 @@ export function Portfolio() {
 
 			<div className="relative space-y-8">
 				<MarqueeRow
-					direction="left"
+					direction="right"
 					speed={28}
 					items={projects}
           size="cover"
 				/>
 
-				<MarqueeRow
+				{/* <MarqueeRow
 					direction="right"
 					speed={32}
 					items={partners}
           size="contain"
-				/>
+				/> */}
 			</div>
 		</section>
 	)
